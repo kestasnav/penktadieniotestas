@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 100px auto;
+
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+    
+  .info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .info > * {  
+    flex-basis: 20%;
+    padding: 20px;
+  }
+  
+  img {
+    height: 250px;
+    padding-bottom: 10px;
+  }
+
+/*  .rutuliukas {
+    border: 2px solid cadetblue;;
+    border-radius: 100px;
+    width: 20px;
+    text-align: center;
+    color: cadetblue;
+    position: absolute;
+   
+    
+    
+} */ 
+
+.card {
+    background-color: #f4f4f4;
+}
+.a1 {
+    background-color:cadetblue;
+}
+
+.a2 {
+    background-color: cornflowerblue;
+}
+
+.a3 {
+    background-color: red;
+}
+
+.a4 {
+    background-color: darkgray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: red;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3rem;
+
+} 
+
+
+@media (max-width: 900px) {
+    .info .card {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .info .card {
+      width: 100%;
+    }
+  }
